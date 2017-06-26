@@ -15,107 +15,79 @@
 7 silly cache add   rawSpec: '.',
 7 silly cache add   spec: 'D:\\Dev\\GitHub\\gitbook-plugin-image-class',
 7 silly cache add   type: 'directory' }
-8 verbose addLocalDirectory C:\Users\Tai\AppData\Roaming\npm-cache\gitbook-plugin-image-class\1.0.4\package.tgz not in flight; packing
+8 verbose addLocalDirectory C:\Users\Tai\AppData\Roaming\npm-cache\gitbook-plugin-image-wrapper\1.0.5\package.tgz not in flight; packing
 9 verbose correctMkdir C:\Users\Tai\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-10 info lifecycle gitbook-plugin-image-class@1.0.4~prepublish: gitbook-plugin-image-class@1.0.4
-11 silly lifecycle gitbook-plugin-image-class@1.0.4~prepublish: no script for prepublish, continuing
-12 verbose tar pack [ 'C:\\Users\\Tai\\AppData\\Roaming\\npm-cache\\gitbook-plugin-image-class\\1.0.4\\package.tgz',
+10 info lifecycle gitbook-plugin-image-wrapper@1.0.5~prepublish: gitbook-plugin-image-wrapper@1.0.5
+11 silly lifecycle gitbook-plugin-image-wrapper@1.0.5~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\Tai\\AppData\\Roaming\\npm-cache\\gitbook-plugin-image-wrapper\\1.0.5\\package.tgz',
 12 verbose tar pack   'D:\\Dev\\GitHub\\gitbook-plugin-image-class' ]
-13 verbose tarball C:\Users\Tai\AppData\Roaming\npm-cache\gitbook-plugin-image-class\1.0.4\package.tgz
+13 verbose tarball C:\Users\Tai\AppData\Roaming\npm-cache\gitbook-plugin-image-wrapper\1.0.5\package.tgz
 14 verbose folder D:\Dev\GitHub\gitbook-plugin-image-class
-15 verbose addLocalTarball adding from inside cache C:\Users\Tai\AppData\Roaming\npm-cache\gitbook-plugin-image-class\1.0.4\package.tgz
+15 verbose addLocalTarball adding from inside cache C:\Users\Tai\AppData\Roaming\npm-cache\gitbook-plugin-image-wrapper\1.0.5\package.tgz
 16 verbose correctMkdir C:\Users\Tai\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-17 silly cache afterAdd gitbook-plugin-image-class@1.0.4
-18 verbose afterAdd C:\Users\Tai\AppData\Roaming\npm-cache\gitbook-plugin-image-class\1.0.4\package\package.json not in flight; writing
+17 silly cache afterAdd gitbook-plugin-image-wrapper@1.0.5
+18 verbose afterAdd C:\Users\Tai\AppData\Roaming\npm-cache\gitbook-plugin-image-wrapper\1.0.5\package\package.json not in flight; writing
 19 verbose correctMkdir C:\Users\Tai\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-20 verbose afterAdd C:\Users\Tai\AppData\Roaming\npm-cache\gitbook-plugin-image-class\1.0.4\package\package.json written
-21 silly publish { _args: [ [ [Object], 'D:\\Dev\\GitHub' ] ],
-21 silly publish   _from: '.',
-21 silly publish   _id: 'gitbook-plugin-image-class@1.0.4',
-21 silly publish   _inCache: true,
-21 silly publish   _location: '/gitbook-plugin-image-class',
-21 silly publish   _nodeVersion: '6.10.3',
-21 silly publish   _npmOperationalInternal:
-21 silly publish    { host: 's3://npm-registry-packages',
-21 silly publish      tmp: 'tmp/gitbook-plugin-image-class-1.0.4.tgz_1498398104974_0.24401092273183167' },
-21 silly publish   _npmUser: { name: 'ralphilius', email: 'kodingralph@gmail.com' },
-21 silly publish   _npmVersion: '3.10.10',
-21 silly publish   _phantomChildren: {},
-21 silly publish   _requested:
-21 silly publish    { raw: 'gitbook-plugin-image-class',
-21 silly publish      scope: null,
-21 silly publish      escapedName: 'gitbook-plugin-image-class',
-21 silly publish      name: 'gitbook-plugin-image-class',
-21 silly publish      rawSpec: '',
-21 silly publish      spec: 'latest',
-21 silly publish      type: 'tag' },
-21 silly publish   _requiredBy: [ '#USER' ],
-21 silly publish   _resolved: 'https://registry.npmjs.org/gitbook-plugin-image-class/-/gitbook-plugin-image-class-1.0.4.tgz',
-21 silly publish   _shasum: 'b23f9335d24ed2a9b749ce54e6f9f1af6328bdf2',
-21 silly publish   _shrinkwrap: null,
-21 silly publish   _spec: 'gitbook-plugin-image-class',
-21 silly publish   _where: 'D:\\Dev\\GitHub',
-21 silly publish   bugs: { url: 'https://github.com/appstormco/gitbook-plugin-image-class/issues' },
-21 silly publish   dependencies: { cheerio: '^0.19.0' },
-21 silly publish   description: 'This plugin wraps a div with the CSS class .image-wrapper and a equivalent class of current page around images so you can style it accordingly',
-21 silly publish   devDependencies: { 'gitbook-plugin': '^4.0.0' },
-21 silly publish   directories: {},
-21 silly publish   dist:
-21 silly publish    { shasum: '2ff0f6c292b4cf378249929f0058b6bcebc75c62',
-21 silly publish      tarball: 'https://registry.npmjs.org/gitbook-plugin-image-class/-/gitbook-plugin-image-class-1.0.4.tgz' },
-21 silly publish   engines: { gitbook: '>1.x.x' },
-21 silly publish   gitHead: 'ca38eb575cf4d50931e449d87cde7efcb7bddfbb',
-21 silly publish   gitbook: { properties: {} },
-21 silly publish   homepage: 'hhttps://github.com/appstormco/gitbook-plugin-image-class',
-21 silly publish   keywords: [ 'gitbook', 'gitbook:utility' ],
-21 silly publish   license: 'Apache-2.0',
+20 verbose afterAdd C:\Users\Tai\AppData\Roaming\npm-cache\gitbook-plugin-image-wrapper\1.0.5\package\package.json written
+21 silly publish { name: 'gitbook-plugin-image-wrapper',
+21 silly publish   version: '1.0.5',
 21 silly publish   main: 'index.js',
-21 silly publish   maintainers: [ { name: 'ralphilius', email: 'kodingralph@gmail.com' } ],
-21 silly publish   name: 'gitbook-plugin-image-class',
-21 silly publish   optionalDependencies: {},
-21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   license: 'Apache-2.0',
+21 silly publish   description: 'This plugin wraps a div with the CSS class .image-wrapper and a equivalent class of current page around images so you can style it accordingly',
+21 silly publish   engines: { gitbook: '>1.x.x' },
+21 silly publish   dependencies: { cheerio: '^0.19.0' },
+21 silly publish   devDependencies: { 'gitbook-plugin': '^4.0.0' },
+21 silly publish   homepage: 'https://github.com/appstormco/gitbook-plugin-image-class',
 21 silly publish   repository:
 21 silly publish    { type: 'git',
 21 silly publish      url: 'git+https://github.com/appstormco/gitbook-plugin-image-class.git' },
+21 silly publish   bugs: { url: 'https://github.com/appstormco/gitbook-plugin-image-class/issues' },
+21 silly publish   keywords: [ 'gitbook', 'gitbook:utility' ],
+21 silly publish   gitbook: { properties: {} },
+21 silly publish   readme: '\r\n> This is a rework of **theseanstewart/Gitbook-Plugin-Image-Wrapper**, which extends ability to have different class on each page.\r\n\r\n\r\n# Gitbook Custom Image Class Plugin\r\n\r\nThis plugin will wrap your images in a div with a class of *image-wrapper*. This allows you to add CSS styles to style the way the image is displayed.\r\n\r\n```\r\n<div class="image-wrapper" />\r\n```\r\n\r\n## Usage\r\n\r\n### Installation\r\n\r\nAdd the plugin to your `book.json`:\r\n\r\n```\r\n{\r\n    "plugins" : [ "image-class" ]\r\n}\r\n```\r\n\r\n### Add Images\r\n\r\nFor example, in `introduction.md` file, add images normally to your document using Markdown\r\n\r\n```\r\n![Alt Text](/assets/image-url.jpg)\r\n```\r\n\r\nEach image will be wrapped in a div like this \r\n\r\n```\r\n<div class="image-wrapper introduction">\r\n\t<img src="/assets/image-url.jpg" alt="Alt Text" />\r\n</div>\r\n```\r\n\r\n### Style It\r\n\r\nAdd the following CSS to your book to center your images and add some additional spacing:\r\n\r\n```\r\n.image-wrapper.introduction {\r\n\ttext-align: center;\r\n\tpadding: 15px 0px;\r\n}\r\n```\r\n\r\n## Why\r\n\r\nWhen building documentation for my business [AppStorm](https://appstorm.co), I wondered whether I can customized image size, on each different page. I came accross [theseanstewart/Gitbook-Plugin-Image-Wrapper](https://github.com/theseanstewart/Gitbook-Plugin-Image-Wrapper) repository and thought that I could improve it better. So I reworked a little bit so it will support.',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '1ec1e7c971542cf086830f2937067190a2a261ed',
+21 silly publish   _id: 'gitbook-plugin-image-wrapper@1.0.5',
 21 silly publish   scripts: {},
-21 silly publish   version: '1.0.4' }
+21 silly publish   _shasum: 'eb47bc053255b38b51859e07fddce702fd2a296b',
+21 silly publish   _from: '.' }
 22 verbose getPublishConfig undefined
-23 silly mapToRegistry name gitbook-plugin-image-class
+23 silly mapToRegistry name gitbook-plugin-image-wrapper
 24 silly mapToRegistry using default registry
 25 silly mapToRegistry registry https://registry.npmjs.org/
 26 silly mapToRegistry data Result {
-26 silly mapToRegistry   raw: 'gitbook-plugin-image-class',
+26 silly mapToRegistry   raw: 'gitbook-plugin-image-wrapper',
 26 silly mapToRegistry   scope: null,
-26 silly mapToRegistry   escapedName: 'gitbook-plugin-image-class',
-26 silly mapToRegistry   name: 'gitbook-plugin-image-class',
+26 silly mapToRegistry   escapedName: 'gitbook-plugin-image-wrapper',
+26 silly mapToRegistry   name: 'gitbook-plugin-image-wrapper',
 26 silly mapToRegistry   rawSpec: '',
 26 silly mapToRegistry   spec: 'latest',
 26 silly mapToRegistry   type: 'tag' }
-27 silly mapToRegistry uri https://registry.npmjs.org/gitbook-plugin-image-class
+27 silly mapToRegistry uri https://registry.npmjs.org/gitbook-plugin-image-wrapper
 28 verbose publish registryBase https://registry.npmjs.org/
-29 silly publish uploading C:\Users\Tai\AppData\Roaming\npm-cache\gitbook-plugin-image-class\1.0.4\package.tgz
-30 verbose request uri https://registry.npmjs.org/gitbook-plugin-image-class
+29 silly publish uploading C:\Users\Tai\AppData\Roaming\npm-cache\gitbook-plugin-image-wrapper\1.0.5\package.tgz
+30 verbose request uri https://registry.npmjs.org/gitbook-plugin-image-wrapper
 31 verbose request sending authorization for write operation
-32 info attempt registry request try #1 at 3:06:23 PM
+32 info attempt registry request try #1 at 3:09:52 PM
 33 verbose request using bearer token for auth
-34 verbose request id 9a80ff9cd9e3e26f
-35 http request PUT https://registry.npmjs.org/gitbook-plugin-image-class
-36 http 403 https://registry.npmjs.org/gitbook-plugin-image-class
+34 verbose request id 7b64a6a3aaa2f0c3
+35 http request PUT https://registry.npmjs.org/gitbook-plugin-image-wrapper
+36 http 403 https://registry.npmjs.org/gitbook-plugin-image-wrapper
 37 verbose headers { 'content-type': 'application/json',
 37 verbose headers   'cache-control': 'max-age=300',
-37 verbose headers   'content-length': '95',
+37 verbose headers   'content-length': '122',
 37 verbose headers   'accept-ranges': 'bytes',
-37 verbose headers   date: 'Mon, 26 Jun 2017 08:06:28 GMT',
+37 verbose headers   date: 'Mon, 26 Jun 2017 08:09:57 GMT',
 37 verbose headers   via: '1.1 varnish',
 37 verbose headers   connection: 'keep-alive',
-37 verbose headers   'x-served-by': 'cache-hkg6821-HKG',
+37 verbose headers   'x-served-by': 'cache-hkg6822-HKG',
 37 verbose headers   'x-cache': 'MISS',
 37 verbose headers   'x-cache-hits': '0',
-37 verbose headers   'x-timer': 'S1498464387.476797,VS0,VE877',
+37 verbose headers   'x-timer': 'S1498464596.427896,VS0,VE790',
 37 verbose headers   vary: 'Accept-Encoding' }
-38 verbose request invalidating C:\Users\Tai\AppData\Roaming\npm-cache\registry.npmjs.org\gitbook-plugin-image-class on PUT
+38 verbose request invalidating C:\Users\Tai\AppData\Roaming\npm-cache\registry.npmjs.org\gitbook-plugin-image-wrapper on PUT
 39 error publish Failed PUT 403
-40 verbose stack Error: "You cannot publish over the previously published version 1.0.4." : gitbook-plugin-image-class
+40 verbose stack Error: you do not have permission to publish "gitbook-plugin-image-wrapper". Are you logged in as the correct user? : gitbook-plugin-image-wrapper
 40 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
 40 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
 40 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
@@ -127,14 +99,14 @@
 40 verbose stack     at Request.emit (events.js:188:7)
 40 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
 41 verbose statusCode 403
-42 verbose pkgid gitbook-plugin-image-class
+42 verbose pkgid gitbook-plugin-image-wrapper
 43 verbose cwd D:\Dev\GitHub\gitbook-plugin-image-class
 44 error Windows_NT 10.0.14393
 45 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
 46 error node v6.10.3
 47 error npm  v3.10.10
 48 error code E403
-49 error "You cannot publish over the previously published version 1.0.4." : gitbook-plugin-image-class
+49 error you do not have permission to publish "gitbook-plugin-image-wrapper". Are you logged in as the correct user? : gitbook-plugin-image-wrapper
 50 error If you need help, you may report this error at:
 50 error     <https://github.com/npm/npm/issues>
 51 verbose exit [ 1, true ]
