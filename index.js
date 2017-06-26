@@ -7,9 +7,12 @@ var wrapImageTags = function(page){
 
     // Loop through each image found in the page content
     $('img').each(function(){
-
+		
+		//Get current page's path then remove .md text
+		var path = page.path.replace('.md','').replace('/','-');
+		
         // Build the wrapper
-        var imageWrapper = $('<div>').addClass('image-wrapper');
+        var imageWrapper = $('<div>').addClass('image-wrapper').addClass(path);
 
         // Get the image object
         var img = $(this);
