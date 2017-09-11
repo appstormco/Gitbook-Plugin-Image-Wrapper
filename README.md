@@ -52,3 +52,5 @@ Add the following CSS to your book to center your images and add some additional
 ## Why
 
 When building documentation for my business [AppStorm](https://appstorm.co), I wondered whether I can customized image size, on each different page. I came accross [theseanstewart/Gitbook-Plugin-Image-Wrapper](https://github.com/theseanstewart/Gitbook-Plugin-Image-Wrapper) repository and thought that I could improve it better. So I reworked a little bit so it will support.
+
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/kJbeTd1SaSwKTLd6NYQ1MuSr/appstormco/gitbook-plugin-image-class'>  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/kJbeTd1SaSwKTLd6NYQ1MuSr/appstormco/gitbook-plugin-image-class.svg' /></a>
